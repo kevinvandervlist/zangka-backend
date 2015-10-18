@@ -1,4 +1,13 @@
 language: scala
 
+cache:
+  directories:
+    - $HOME/.m2/repository
+    - $HOME/.sbt
+    - $HOME/.ivy2
+
+jdk:
+  - openjdk8
+
 scala:
    - 2.11.7
